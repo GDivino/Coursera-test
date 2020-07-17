@@ -1,0 +1,57 @@
+header {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section {
+    width: 25%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+
+}
+
+.col1 {
+    background-color: blue;
+    border: solid 3px black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px; 
+}
+
+.col2 {
+    background-color: red;
+    border: solid 3px black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.col3 {
+    background-color: green;
+    border: solid 3px black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+@media (min-width: 992px) {
+    section {
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+
+    }
+}
