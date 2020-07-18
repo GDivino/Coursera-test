@@ -22,13 +22,32 @@ h1 {
     position: relative;
 }
 
-/*section tile*/
-.title {
+/*section tiles*/
+.title1 {
     position: absolute;
     top: 5px;
     right: 5px;
     border: solid 1px black;
     padding: 5px;
+    background-color: aqua;
+}
+
+.title2 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: solid 1px black;
+    padding: 5px;
+    background-color: beige;
+}
+
+.title3 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: solid 1px black;
+    padding: 5px;
+    background-color: aquamarine;
 }
 
 /*section paragraph*/
