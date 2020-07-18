@@ -1,42 +1,42 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     text-align: center;
+    margin: 25px 0 70px 0;
 }
+
 .row {
     width: 100%;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: solid 1px black;
+    padding: 5px;
 }
 
 .paragraph {
     border: 1px solid black;
     background-color: rgb(238, 168, 77);
-    padding: 2px;
-}
-
-.col1 {
-    background-color: rgb(255, 255, 255);
-    padding-left: 3px; 
-    padding-right: 3px;
-}
-
-.col2 {
-    background-color: rgb(255, 255, 255);
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-.col3 {
-    background-color: rgb(255, 255, 255);
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 50px 4px 4px 4px;
+    margin: 5px;
 }
 
 @media (min-width: 992px) {
     .col-lg-3 {
         float: left;
-        width: 33.33%;
+        width: 33.3%;
     }
 }
 
@@ -58,6 +58,7 @@ h1 {
 
 @media (max-width: 767px) {
     .col-sm-1 {
-        width: 100%
+        width: 100%;
+        float: top;
     }
 }
