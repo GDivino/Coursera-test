@@ -1,0 +1,41 @@
+#header-nav .nav-brand {
+    margin: 25px 0 25px;
+}
+
+#header-nav {
+    background-color: silver;
+
+}
+
+#page-heading {
+    margin: auto;
+}
+
+#main-content #big-section {
+    background-color: silver;
+    height: 1000px;
+}
+
+#main-content #big-section h3 {
+    padding-top: 20px;
+}
+
+#main-content #big-section p {
+    font-size: large;
+}
+
+#nav-list {
+    background-color: slateblue;
+}
+
+#nav-list > li > a {
+    color: black;
+}
+
+@media (max-width: 767px) {
+    #main-content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
